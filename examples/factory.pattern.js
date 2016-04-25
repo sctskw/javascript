@@ -97,3 +97,10 @@ console.log(house1.toString());
 console.log(house2.toString());
 console.log(flag1.toString());
 console.log(default1.toString());
+
+//outputs
+//
+//HOUSE(-31, 102)
+//HOUSE(-10, 20)
+//FLAG(-32, 104)
+//DEFAULT(0, 0)
