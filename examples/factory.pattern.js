@@ -86,6 +86,7 @@ var MarkerFactory = (function() {
 })();
 
 
+////Controlling code
 
 var house1 = MarkerFactory.create('house', {lat: -31, lng: 102});
 var house2 = MarkerFactory.create('house', {lat: -10, lng: 20});
