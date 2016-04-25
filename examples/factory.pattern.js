@@ -76,10 +76,9 @@ var MarkerFactory = (function() {
 
   return {
     create: function(type, params) {
-      var marker = markers[type]; //stash the marker
+      var marker = markers[type] || markers['default'];
 
-      //if we have a valid type, use it, otherwise default
-      return marker ? marker(params) : markers['default'].call(null, params);
+      return marker.call(null, params);
     }
   };
 
